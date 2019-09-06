@@ -1,35 +1,21 @@
 # -*- coding: utf-8 -*-
 {
-    'name': "my_library",
-
-    'summary': """
-        Short (1 phrase/line) summary of the module's purpose, used as
-        subtitle on modules listing or apps.openerp.com""",
-
-    'description': """
-        Long description of module's purpose
-    """,
-
-    'author': "My Company",
-    'website': "http://www.yourcompany.com",
-
-    # Categories can be used to filter modules in modules listing
-    # Check https://github.com/odoo/odoo/blob/12.0/odoo/addons/base/data/ir_module_category_data.xml
-    # for the full list
+    'name': "My Library",  # Module title
+    'summary': "Manage books easily",  # Module subtitle phrase
+    'description': """Long description""",  # You can also rst format
+    'author': "Parth Gajjar",
+    'website': "http://www.example.com",
     'category': 'Uncategorized',
-    'version': '0.1',
-
-    # any module necessary for this one to work correctly
+    'version': '12.0.1',
     'depends': ['base'],
-
-    # always loaded
+    # This data files will be loaded at the installation (commented becaues file is not added in this example)
     'data': [
-        # 'security/ir.model.access.csv',
-        'views/views.xml',
-        'views/templates.xml',
+        'security/groups.xml',
+        'security/ir.model.access.csv',
+        'views/library_book.xml'
     ],
-    # only loaded in demonstration mode
-    'demo': [
-        'demo/demo.xml',
-    ],
+    # This demo data files will be loaded if db initialize with demo data (commented becaues file is not added in this example)
+    # 'demo': [
+    #     'demo.xml'
+    # ],
 }
