@@ -14,3 +14,5 @@ new file:   my_library/static/description/icon.png
 new file:   my_library/views/library_book.xml   
 
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/001.png" width="50%">
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/002.png" >
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/003.png" >
