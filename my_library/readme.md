@@ -35,7 +35,7 @@ cost_price = fields.Float('Book Cost', digits=dp.get_precision('Book Price'))
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/011.png" >
 ### model relational fields
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/012.png" >
-```HTML
+```
 <form>
 	<group>
 		<group>
@@ -63,3 +63,7 @@ cost_price = fields.Float('Book Cost', digits=dp.get_precision('Book Price'))
 </form>
 ```
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/013.png" >
+### model category
+
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/014.png" >
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/015.png" >
