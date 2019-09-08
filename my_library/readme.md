@@ -72,3 +72,8 @@ cost_price = fields.Float('Book Cost', digits=dp.get_precision('Book Price'))
 
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/016.png" >
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/017.png" >
+
+### model computed field
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/018.png" >
+### model related model field
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/019.png" >
