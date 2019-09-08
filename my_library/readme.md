@@ -98,6 +98,9 @@ when clicked toggle button record disappear
 ### model inheritance delegation
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/022.png" >
 
-### model methods
+### model methods and xml header buttons
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/023.png" >
 
+
+### model methods error message
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/024.png" >
