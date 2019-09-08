@@ -97,3 +97,7 @@ when clicked toggle button record disappear
 
 ### model inheritance delegation
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/022.png" >
+
+### model methods
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/023.png" >
+
