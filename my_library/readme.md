@@ -91,7 +91,9 @@ could not find change in database
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/021.png" >
 
 
+### model abstract model
+added active field in library_book
+when clicked toggle button record disappear
 
-
-
-
+### model inheritance delegation
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/022.png" >
