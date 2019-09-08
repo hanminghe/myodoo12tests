@@ -29,13 +29,16 @@ new file:   my_library/views/library_book.xml
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/009.png" >
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/010.png" >
 ### model decimal precision
-```python
+
+```
 cost_price = fields.Float('Book Cost', digits=dp.get_precision('Book Price'))
 ```
+
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/011.png" >
 ### model relational fields
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/012.png" >
 
+```
 &lt;form&gt;
 	&lt;group&gt;
 		&lt;group&gt;
@@ -61,6 +64,7 @@ cost_price = fields.Float('Book Cost', digits=dp.get_precision('Book Price'))
 		&lt;field name="description"/&gt;
 	&lt;/group&gt;
 &lt;/form&gt;
+```
 
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/013.png" >
 ### model category
@@ -74,7 +78,7 @@ cost_price = fields.Float('Book Cost', digits=dp.get_precision('Book Price'))
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/017.png" >
 
 ### model computed field
-<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/018.png" >
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/18.png" >
 
 ### model related model field
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/019.png" >
