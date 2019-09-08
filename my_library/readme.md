@@ -39,34 +39,35 @@ cost_price = fields.Float('Book Cost', digits=dp.get_precision('Book Price'))
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/012.png" >
 
 ```
-&lt;form&gt;
-	&lt;group&gt;
-		&lt;group&gt;
-			&lt;field name="name"/&gt;
-			&lt;field name="author_ids" widget="many2many_tags"/&gt;
-			&lt;field name="state"/&gt;
-			&lt;field name="pages"/&gt;
-			&lt;field name="notes"/&gt;
-			&lt;field name="cost_price"/&gt;
-			&lt;field name="retail_price"/&gt;
-			&lt;field name="currency_id"/&gt;
-		&lt;/group&gt;
-		&lt;group&gt;
-			&lt;field name="short_name"/&gt;
-			&lt;field name="publisher_id"/&gt;
-			&lt;field name="date_release"/&gt;
-			&lt;field name="date_updated"/&gt;
-			&lt;field name="cover" widget="image" class="oe_avatar"/&gt;
-			&lt;field name="reader_rating"/&gt;
-		&lt;/group&gt;
-	&lt;/group&gt;
-	&lt;group&gt;
-		&lt;field name="description"/&gt;
-	&lt;/group&gt;
-&lt;/form&gt;
+<form>
+	<group>
+		<group>
+			<field name="name"/>
+			<field name="author_ids" widget="many2many_tags"/>
+			<field name="state"/>
+			<field name="pages"/>
+			<field name="notes"/>
+			<field name="cost_price"/>
+			<field name="retail_price"/>
+			<field name="currency_id"/>
+		</group>
+		<group>
+			<field name="short_name"/>
+			<field name="publisher_id"/>
+			<field name="date_release"/>
+			<field name="date_updated"/>
+			<field name="cover" widget="image" class="oe_avatar"/>
+			<field name="reader_rating"/>
+		</group>
+	</group>
+	<group>
+		<field name="description"/>
+	</group>
+</form>
 ```
 
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/013.png" >
+
 ### model category
 
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/014.png" >
