@@ -82,3 +82,16 @@ cost_price = fields.Float('Book Cost', digits=dp.get_precision('Book Price'))
 
 ### model related model field
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/019.png" >
+
+### model reference
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/020.png" >
+
+### model inheritance
+could not find change in database
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/021.png" >
+
+
+
+
+
+
