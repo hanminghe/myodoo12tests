@@ -111,5 +111,9 @@ when clicked toggle button record disappear
 ### model methods create records of other model
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/025.png" >
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/026.png" >
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/027.png" >
 
-
+### model methods update records aka write
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/028.png" >
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/029.png" >
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/030.png" >
