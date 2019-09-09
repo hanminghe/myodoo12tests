@@ -1,7 +1,12 @@
 # -*- coding: utf-8 -*-
+import logging
+
 from odoo import models, fields, api
 from odoo.exceptions import UserError
 from odoo.tools.translate import _
+
+
+logger = logging.getLogger(__name__)
 
 
 class LibraryBook(models.Model):
@@ -74,10 +79,54 @@ class LibraryBook(models.Model):
         self.ensure_one()
         self.date_updated = fields.Datetime.now()
 
+    @api.multi
+    def find_book(self):
+        domain = [
+            '|',
+                '&', ('name', 'ilike', 'Book Name'),
+                     ('category_id.name', '=', 'Category Name'),
+                '&', ('name', 'ilike', 'Book Name 2'),
+                     ('category_id.name', '=', 'Category Name 2')
+        ]
+        books = self.search(domain)
+        logger.info('Books found: %s', books)
+        return True
+
     @api.model
     def get_all_library_members(self):
         library_member_model = self.env['library.member']  # This is an empty recordset of model library.member
         return library_member_model.search([])
+
+    def filter_books(self):
+        all_books = self.search([])
+        filtered_books = self.books_with_multiple_authors(all_books)
+        logger.info('Filtered Books: %s', filtered_books)
+
+    @api.model
+    def books_with_multiple_authors(self, all_books):
+        def predicate(book):
+            if len(book.author_ids) > 1:
+                return True
+        return all_books.filtered(predicate)
+
+    def mapped_books(self):
+        all_books = self.search([])
+        books_authors = self.get_author_names(all_books)
+        logger.info('Books Authors: %s', books_authors)
+
+    @api.model
+    def get_author_names(self, all_books):
+        return all_books.mapped('author_ids.name')
+
+    def sort_books(self):
+        all_books = self.search([])
+        books_sorted = self.sort_books_by_date(all_books)
+        logger.info('Books before sorting: %s', all_books)
+        logger.info('Books after sorting: %s', books_sorted)
+
+    @api.model
+    def sort_books_by_date(self, all_books):
+        return all_books.sorted(key='date_release')
 
 
 class LibraryMember(models.Model):
