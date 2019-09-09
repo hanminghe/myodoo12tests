@@ -139,3 +139,6 @@ when clicked toggle button record disappear
 
 ### module onchange
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/040.png" >
+
+### module sql view 
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/041.png" >
