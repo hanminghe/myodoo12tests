@@ -142,3 +142,6 @@ when clicked toggle button record disappear
 
 ### module sql view 
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/041.png" >
+
+### setting options
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/041.png" >
