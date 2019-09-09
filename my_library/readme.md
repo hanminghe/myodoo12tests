@@ -107,3 +107,9 @@ when clicked toggle button record disappear
 
 ### model methods error message
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/024.png" >
+
+### model methods create records of other model
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/025.png" >
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/026.png" >
+
+
