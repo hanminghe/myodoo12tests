@@ -124,3 +124,5 @@ when clicked toggle button record disappear
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/032.png" >
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/034.png" >
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/033.png" >
+
+
