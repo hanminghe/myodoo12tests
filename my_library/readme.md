@@ -130,3 +130,6 @@ when clicked toggle button record disappear
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/036.png" >
 
 
+### module execute sql 
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/037.png" >
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/038.png" >
