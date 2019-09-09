@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 import logging
-from odoo import models, fields, _
+from odoo import models, fields, _, api
 from odoo.exceptions import UserError
 
 
@@ -61,3 +61,20 @@ class LibraryBook(models.Model):
         self.env.cr.execute(sql_query)
         result = self.env.cr.fetchall()
         logger.info("Average book occupation: %s", result)
+
+    @api.multi
+    def return_all_books(self):
+        self.ensure_one()
+        wizard = self.env['library.return.wizard']
+        values = {
+            'borrower_id': self.env.user.partner_id.id,
+        }
+        specs = wizard._onchange_spec()
+        updates = wizard.onchange(values, ['borrower_id'], specs)
+        value = updates.get('value', {})
+        for name, val in value.items():
+            if isinstance(val, tuple):
+                value[name] = val[0]
+        values.update(value)
+        wiz = wizard.create(values)
+        return wiz.sudo().books_returns()

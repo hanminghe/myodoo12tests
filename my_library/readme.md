@@ -133,3 +133,9 @@ when clicked toggle button record disappear
 ### module execute sql 
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/037.png" >
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/038.png" >
+
+### module wizard
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/039.png" >
+
+### module onchange
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/040.png" >
