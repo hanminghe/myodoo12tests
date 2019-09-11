@@ -45,3 +45,11 @@ action_partner_category_form in odoo\addons\base\views\res_partner_views.xml
 ### 10-10 sheet form
 
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/054.png" >
+
+### 10-11 attributes
+
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/055.png" >
+
+### 10-12 embedded view
+
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/056.png" >
