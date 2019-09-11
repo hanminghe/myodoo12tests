@@ -37,3 +37,11 @@ action_partner_category_form in odoo\addons\base\views\res_partner_views.xml
 ### 10-08 search view
 
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/052.png" >
+
+### 10-09 view inheritance
+
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/053.png" >
+
+### 10-10 sheet form
+
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/054.png" >
