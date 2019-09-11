@@ -23,3 +23,7 @@ action_partner_category_form in odoo\addons\base\views\res_partner_views.xml
 ### 10-05 action context
 
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/049.png" >
+
+### 10-06 domain filter
+
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/049.png" >
