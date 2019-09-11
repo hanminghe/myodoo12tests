@@ -29,6 +29,11 @@ action_partner_category_form in odoo\addons\base\views\res_partner_views.xml
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/050.png" >
 
 
-### 10-06 list view
+### 10-07 list view
 
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/051.png" >
+
+
+### 10-08 search view
+
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/052.png" >
