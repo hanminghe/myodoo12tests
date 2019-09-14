@@ -57,3 +57,7 @@ action_partner_category_form in odoo\addons\base\views\res_partner_views.xml
 ### 10-13 attachment
 
 <img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/057.png" >
+
+### 10-14 kanban view
+
+<img src="https://github.com/hanminghe/myodoo12tests/blob/master/img/058.png" >
